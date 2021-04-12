@@ -7,7 +7,7 @@ auth.set_access_token('--access token buraya--', '--secret access token buraya--
 api = tweepy.API(auth)
 user = api.me()
 
-# Beğeni arası bekleme süresi.. Şuan: 10sn
+# limite takılırsa bekleyeceği süre.
 def limit_handle(cursor):
     try:
         while True:
